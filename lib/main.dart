@@ -1,6 +1,6 @@
-import 'package:budget/constants.dart';
+import 'package:expenses/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:budget/screens/screens.dart';
+import 'package:expenses/screens/screens.dart';
 import 'package:flutter/services.dart';
 
 void main() async {

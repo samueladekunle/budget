@@ -1,4 +1,4 @@
-import 'package:budget/models/models.dart';
+import 'package:expenses/models/models.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pattern_formatter/numeric_formatter.dart';

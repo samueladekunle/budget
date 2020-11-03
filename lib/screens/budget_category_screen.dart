@@ -1,6 +1,6 @@
-import 'package:budget/constants.dart';
-import 'package:budget/models/models.dart';
-import 'package:budget/widgets/widgets.dart';
+import 'package:expenses/constants.dart';
+import 'package:expenses/models/models.dart';
+import 'package:expenses/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class BudgetCategoryScreen extends StatelessWidget {

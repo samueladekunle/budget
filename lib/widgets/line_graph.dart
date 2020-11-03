@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:budget/constants.dart';
-import 'package:budget/models/models.dart';
+import 'package:expenses/constants.dart';
+import 'package:expenses/models/models.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 
