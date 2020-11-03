@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Expenses',
+      title: 'Expenses Tracker',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
