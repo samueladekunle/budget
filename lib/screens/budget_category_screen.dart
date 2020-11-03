@@ -20,6 +20,10 @@ class BudgetCategoryScreen extends StatelessWidget {
       children: List<Widget>.generate(5, (index) {
         if (index + 1 == 5) {
           return ListTile(
+            leading: Icon(
+              category.icon,
+              color: pinkColor,
+            ),
             title: Text(
               'Item ${index + 1}',
               style: TextStyle(fontWeight: FontWeight.w500),
@@ -30,6 +34,10 @@ class BudgetCategoryScreen extends StatelessWidget {
         return Column(
           children: [
             ListTile(
+              leading: Icon(
+                category.icon,
+                color: pinkColor,
+              ),
               title: Text(
                 'Item ${index + 1}',
                 style: TextStyle(fontWeight: FontWeight.w500),
@@ -55,9 +63,11 @@ class BudgetCategoryScreen extends StatelessWidget {
       ),
       child: Scaffold(
         appBar: AppBar(
-          leading: Icon(
-            category.icon,
-            color: Theme.of(context).accentColor,
+          leading: IconButton(
+            icon: Icon(Icons.close),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
           ),
           title: Text('$category'),
           elevation: 0,
